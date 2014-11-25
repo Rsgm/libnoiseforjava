@@ -1,0 +1,12 @@
+apply plugin: "java"
+
+buildscript {
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+    dependencies {
+    }
+}
+
+sourceSets.main.java.srcDirs = ["src/"]
